@@ -1,0 +1,61 @@
+body, div, ul, ol, h1, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+    font-family: 微软雅黑;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+h1, h2 {
+    font-size: 1.2rem;
+}
+
+#header {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background-color: #EEE;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+#wrapper {
+
+}
+.article-list {
+    
+}
+.article-list .item {
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid #DEDEDE;
+    padding: 8px;
+}
+.article-list .img {
+    float: left;
+    margin-right: 20px;
+}
+
+.article-list .con {
+    overflow: hidden;
+}
+
+.article-post {
+
+}
+.article-post .banner img {
+    width: 100%;
+}
+.article-post .content {
+    padding: 10px;
+}
+
+.clearfix:after{
+    content:".";display:block;height:0;clear:both;visibility:hidden
+}
+.clearfix{
+    *+height:1%;
+}

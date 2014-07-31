@@ -1,0 +1,19 @@
+<header id="header">
+    <h1>少数派</h1>
+</header>
+
+<ul class="article-list">
+    <li class="item clearfix" ng-repeat="item in articles.data">
+        <a href="#/{{ item.id }}">
+            <div class="img">
+                <img src="{{ item.banner.thumb_url }}" />
+            </div>
+            <div class="con">
+            <h2>{{ item.title }}</h2>
+                <div class="info">
+                    
+                </div>
+            </div>
+        </a>
+    </li> 
+</ul>
